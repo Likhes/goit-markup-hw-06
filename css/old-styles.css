@@ -287,6 +287,11 @@ h1 {
   margin-bottom: 8px;
 }
 
+
+
+
+
+/*
 .social {
   display: flex;
   justify-content: center;
@@ -319,6 +324,10 @@ h1 {
 .soc-icon {
   fill: #f4f4fd;
 }
+*/
+
+
+
 
 .profile {
   font-size: 16px;
@@ -526,6 +535,9 @@ footer {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 .all-close-btn {
   background-color: #e7e9fc;
   position: absolute;
