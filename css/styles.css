@@ -152,13 +152,71 @@ span {
     display: none;
   }
 
-  .navigation,
-  .address {
-      display: flex;
+  .navigation {
+    display: flex;
+    gap: 40px;
+    margin: 24px 120px;
   }
 
-  .guid{
+  .guid {
     display: flex;
+  }
+
+  .logo {
+    margin-top: 24px;
+  }
+
+  .navigation .link {
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .navigation .link:hover {
+    color: #404bbf;
+  }
+
+  .navigation .link:focus {
+    color: #404bbf;
+  }
+
+  .navigation .link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+  }
+
+  .address {
+    display: flex;
+    font-style: normal;
+    gap: 12px;
+  }
+
+  .address-links .link {
+    font-style: normal;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .address-links .link:hover {
+    color: #404bbf;
+  }
+
+  .address-links .link:focus {
+    color: #404bbf;
   }
 }
 
@@ -166,5 +224,16 @@ span {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+  }
+
+  .address-links {
+    display: flex;
+    gap: 40px;
+    margin-left: 332px;
+  }
+
+  .navigation{
+    margin-left: 76px;
+    margin-right: 0;
   }
 }
