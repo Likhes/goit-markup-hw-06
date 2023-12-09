@@ -353,7 +353,6 @@ span {
     ),
     url("../images/background/Dark-bg-mobile.jpg");
   max-width: 320px;
-  height: 432px;
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: auto;
@@ -452,7 +451,6 @@ span {
 
 .page-name {
   max-width: 169px;
-  max-height: 126px;
   margin: 0 auto 72px auto;
 }
 
@@ -466,7 +464,6 @@ h1 {
 @media screen and (min-width: 768px) {
   .page-name {
     max-width: 496px;
-    max-height: 120px;
     margin: 0 auto 36px auto;
   }
 
@@ -479,7 +476,6 @@ h1 {
 @media screen and (min-width: 1158px) {
 .page-name {
         max-width: 496px;
-        max-height: 120px;
         margin: 0 auto;
     }
 
