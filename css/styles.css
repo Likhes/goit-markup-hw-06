@@ -477,14 +477,16 @@ h1 {
 }
 
 @media screen and (min-width: 1158px) {
-  .buy {
-    margin: 48px auto 292px;
-  }
+.page-name {
+        max-width: 496px;
+        max-height: 120px;
+        margin: 0 auto;
+    }
 
- 
-  .page-name {
-    margin: 0 auto;
-  }
+    .buy{
+        margin: 48px auto auto;
+    }
+
 }
 
 /*----------------------- Section 2 --------------------*/
