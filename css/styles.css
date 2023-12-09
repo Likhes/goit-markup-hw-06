@@ -474,15 +474,14 @@ h1 {
 }
 
 @media screen and (min-width: 1158px) {
-.page-name {
-        max-width: 496px;
-        margin: 0 auto;
-    }
+  .page-name {
+    max-width: 496px;
+    margin: 0 auto;
+  }
 
-    .buy{
-        margin: 48px auto auto;
-    }
-
+  .buy {
+    margin: 48px auto auto;
+  }
 }
 
 /*----------------------- Section 2 --------------------*/
@@ -567,4 +566,29 @@ h1 {
     border-radius: 4px;
     border: 1px solid #8e8f99;
   }
+}
+
+/*--------------------Section 3 -------------------*/
+
+.team {
+    background-color: #f4f4fd;
+    padding: 96px 28;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
 }
