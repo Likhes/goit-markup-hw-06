@@ -154,7 +154,7 @@ img {
 
 /*                Main               */
 
-.main-header {
+/* .main-header {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -169,7 +169,7 @@ img {
   color: #fff;
   text-align: center;
   padding: 188px 0;
-}
+} */
 
 h1 {
   font-size: 56px;
@@ -177,13 +177,13 @@ h1 {
   letter-spacing: 0.02em;
 }
 
-.page-name {
+/* .page-name {
   max-width: 496px;
   max-height: 120px;
   margin: 0 auto;
-}
+} */
 
-.buy {
+/* .buy {
   background-color: #4d5ae5;
   color: #fff;
   font-weight: 500;
@@ -202,7 +202,7 @@ h1 {
 .buy:hover,
 :focus {
   background-color: #404bbf;
-}
+} */
 
 /* Section 2 */
 .about-us {
