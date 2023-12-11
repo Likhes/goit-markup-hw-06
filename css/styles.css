@@ -659,3 +659,54 @@ h1 {
     width: calc((100% - 72px) / 4);
   }
 }
+
+/* ------------------------------ Section 4 ---------------------------------------*/
+
+.app-descr {
+  display: none;
+}
+
+.port {
+  padding: 96px 0;
+}
+
+.list-port {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+}
+
+.list-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.apps{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0px 16px;
+}
+
+@media screen and (min-width: 1158px) {
+  .app-descr {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .list-item:hover .app-descr {
+    transform: translateY(0%);
+  }
+}

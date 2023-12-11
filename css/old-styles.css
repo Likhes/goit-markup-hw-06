@@ -245,10 +245,10 @@ h1 {
 
 /* Section 3, 4 */
 
-.list {
+/* .list {
   display: flex;
   gap: 24px;
-}
+} */
 
 /* .team {
   background-color: #f4f4fd;
@@ -263,9 +263,9 @@ h1 {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
 /* } */
 
-.full-name {
+/* .full-name {
   padding: 32px 0;
-}
+} */
 
 /* .section-title {
   font-size: 36px;
@@ -329,13 +329,13 @@ h1 {
 
 
 
-.profile {
+/* .profile {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-}
+} */
 
 .port {
   padding-top: 120px;
@@ -371,7 +371,7 @@ h1 {
   margin-bottom: 8px;
 }
 
-.app-descr {
+/* .app-descr {
   position: absolute;
   top: 0;
   font-size: 16px;
@@ -388,7 +388,7 @@ h1 {
 
 .list-item:hover .app-descr {
   transform: translateY(0%);
-}
+} */
 
 /*     Footer    */
 footer {
