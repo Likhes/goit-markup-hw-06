@@ -570,9 +570,13 @@ h1 {
 
 /*--------------------Section 3 -------------------*/
 
+.team-cont {
+  width: 296px;
+}
+
 .team {
-    background-color: #f4f4fd;
-    padding: 96px 28;
+  background-color: #f4f4fd;
+  padding: 96px 28px;
 }
 
 .section-title {
@@ -585,10 +589,73 @@ h1 {
   margin-bottom: 72px;
 }
 
-
-
 .team-list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 72px;
+}
+
+.member {
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  width: 264px;
+}
+
+.full-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.profile {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .team-cont {
+    width: 584px;
+  }
+
+  .member {
+    width: calc((100%-24px) / 2);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .team {
+    padding: 120px 0;
+  }
+
+  .team-cont {
+    width: 1128px;
+  }
+
+  .member {
+    width: calc((100% - 72px) / 4);
+  }
 }
