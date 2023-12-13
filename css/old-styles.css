@@ -391,22 +391,22 @@ h1 {
 } */
 
 /*     Footer    */
-footer {
+/* footer {
   background-color: #2e2f42;
   color: #fff;
   padding: 100px 0;
-}
+} */
 
-.end-flex {
+/* .end-flex {
   display: flex;
-  align-items: baseline;
-}
+  flex-wrap: wrap;
+} */
 
 .logo-par {
   margin-right: 120px;
 }
 
-.logo-b {
+/* .logo-b {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -416,50 +416,50 @@ footer {
   color: #4d5ae5;
   margin-bottom: 16px;
   display: inline-block;
-}
+} */
 
-.logo-bot {
+/* .logo-bot {
   color: #f4f4fd;
-}
+} */
 
-.agitation {
+/* .agitation {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  max-width: 264px;
-}
+                                                /* max-width: 264px; */
+/* } */ */
 
-.soc-ending {
+/* .soc-ending {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-}
+} */
 
-.media {
+/* .media {
   gap: 16px;
-}
+} */
 
-.link-foot:hover,
+/* .link-foot:hover,
 .link-foot:focus {
   background-color: #31d0aa;
-}
+} */
 
-.subscribe {
+/* .subscribe {
   margin-bottom: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
+} */
 
-.end-form {
+/* .end-form {
   display: flex;
   gap: 24px;
-}
+} */
 
-.submit-btn {
+/* .submit-btn {
   background-color: #4d5ae5;
   min-width: 165px;
   height: 40px;
@@ -472,7 +472,7 @@ footer {
   color: #ffffff;
   border: none;
   border-radius: 4px;
-}
+} */
 
 .submit-icon {
   margin-left: 16px;
