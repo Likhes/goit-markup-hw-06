@@ -730,7 +730,7 @@ h1 {
   }
 
   .apps {
-    width: 360px;
+    max-width: 360px;
   }
 
   .list-item {
