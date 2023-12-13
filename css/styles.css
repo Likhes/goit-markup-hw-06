@@ -725,6 +725,14 @@ h1 {
     row-gap: 72px;
   }
 
+  .port-cont {
+    width: 768px;
+  }
+
+  .apps {
+    width: 360px;
+  }
+
   .list-item {
     width: calc((100% - 24px) / 2);
   }
@@ -733,6 +741,10 @@ h1 {
 @media screen and (min-width: 1158px) {
   .list-item {
     width: calc((100% - 48px) / 3);
+  }
+
+  .port-cont {
+    width: 1158px;
   }
 }
 
